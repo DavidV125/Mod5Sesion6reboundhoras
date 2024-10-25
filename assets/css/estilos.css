@@ -1,0 +1,43 @@
+body {
+    background-color: AliceBlue; /* Light blue background for the body */
+    font-family: Arial, sans-serif; /* Font for the entire document */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the content */
+}
+
+table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Merge borders of table cells */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+td {
+    border: 1px solid LightGray; /* Light gray border for table cells */
+    padding: 10px; /* Padding inside table cells */
+    text-align: center; /* Center align text in cells */
+    background-color: WhiteSmoke; /* Light gray background for cells */
+}
+
+td div {
+    font-size: 1.2em; /* Larger font for city names */
+    color: DarkSlateGray; /* Dark slate gray for city names */
+    margin-bottom: 5px; /* Space below city names */
+}
+
+h1 {
+    margin: 0; /* Remove margin for the heading */
+    font-size: small; /* Font size for the time */
+    color: SteelBlue; /* Steel blue for the time display */
+    height: 50px; /* Fixed height to prevent movement */
+    line-height: 50px; /* Center the time vertically */
+}
+
+img {
+    width: 25px; /* Fixed width for flags */
+    height: 15px; /* Fixed height for flags */
+    margin-top: 5px; /* Space above the flags */
+}
+
+tr:hover {
+    background-color: LightCyan; /* Light cyan background on row hover */
+}
